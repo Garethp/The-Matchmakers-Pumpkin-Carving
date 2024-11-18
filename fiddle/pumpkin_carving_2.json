@@ -1,0 +1,54 @@
+﻿{
+  "letters": {
+    "pumpkin_carving_2": {
+      "npc": "adeline",
+      "subject_line": "letters/pumpkin_carving_2/subject_line",
+      "local": "letters/pumpkin_carving_2/local",
+      "default": true,
+      "quest_to_start": "pumpkin_carving_2"
+    }
+  },
+  "quests": {
+    "story_quests": {
+      "pumpkin_carving_2": {
+        "name": "quests/story_quests/pumpkin_carving_2/name",
+        "npc_for_icon": "adeline",
+        "icon": "story",
+        "description": "quests/story_quests/pumpkin_carving_2/description",
+        "stages": [
+          {
+            "objective_description": "quests/story_quests/pumpkin_carving_2/stages/0/objective_description",
+            "queries": [
+              {
+                "cutscene": "pumpkin_carving_2",
+                "location": "inn"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "cutscenes": {
+    "pumpkin_carving_2": {
+      "has_conversation": true,
+      "run_tests": false,
+      "end_position": "previous",
+      "given_items": [
+        {
+          "item_id": "pumpkin"
+        }
+      ]
+    }
+  },
+  "props": {
+    "pumpkin": {
+      "sprite": "spr_ui_item_pumpkin",
+      "z": 2
+    }
+  },
+  "props/pumpkin": {
+    "sprite": "spr_ui_item_pumpkin",
+    "z": 2
+  }
+}

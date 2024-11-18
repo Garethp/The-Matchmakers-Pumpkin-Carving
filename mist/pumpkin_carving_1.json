@@ -1,0 +1,1828 @@
+{
+  "pumpkin_carving_1.mist": [
+    {
+      "stmt_type": "Function",
+      "name": {
+        "token_type": "Identifier",
+        "value": "on_scene_end"
+      },
+      "params": [],
+      "body": {
+        "stmt_type": "Block",
+        "stmts": [
+          {
+            "stmt_type": "Expr",
+            "expr": {
+              "expr_type": "Call",
+              "call": {
+                "expr_type": "Named",
+                "name": {
+                  "token_type": "Identifier",
+                  "value": "request_music_stop"
+                }
+              },
+              "args": [
+                {
+                  "expr_type": "Literal",
+                  "value": {
+                    "token_type": "Number",
+                    "Value": 2
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "resolve": "null"
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "scene"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "inn"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "animate"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "ari"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "idle"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "ari"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "north"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "food_service_entrance"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "elsie"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "east"
+            }
+          },
+          {
+            "expr_type": "Binary",
+            "left": {
+              "expr_type": "Call",
+              "call": {
+                "expr_type": "Named",
+                "name": {
+                  "token_type": "Identifier",
+                  "value": "get_element_x"
+                }
+              },
+              "args": [
+                {
+                  "expr_type": "Named",
+                  "name": {
+                    "token_type": "Identifier",
+                    "value": "ari"
+                  }
+                }
+              ]
+            },
+            "operator": {
+              "token_type": "Minus"
+            },
+            "right": {
+              "expr_type": "Literal",
+              "value": {
+                "token_type": "Number",
+                "Value": 20
+              }
+            }
+          },
+          {
+            "expr_type": "Call",
+            "call": {
+              "expr_type": "Named",
+              "name": {
+                "token_type": "Identifier",
+                "value": "get_element_y"
+              }
+            },
+            "args": [
+              {
+                "expr_type": "Named",
+                "name": {
+                  "token_type": "Identifier",
+                  "value": "ari"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "adeline"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "east"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "south table service"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "hemlock"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "east"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "bartender 3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "balor"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "west"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "top-middle bar seat"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "ryis"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "west"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "bottom-middle bar seat"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "landen"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "west"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "bottom bar seat"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "hayden"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "south"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "north table top 1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "henrietta"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "south"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "north table top 2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "luc"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "south"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "north table top 3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "dell"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "north"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "north table bottom 1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "celine"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "north"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "north table bottom 3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "holt"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "west"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "north table right end"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "juniper"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "south"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "south table top 1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "olric"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "south"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "south table top 3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "valen"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "north"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "south table bottom 2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "march"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "north"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "south table bottom 3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "camera_position"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "h2h_camera_1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "fade_in"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "Number",
+              "Value": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "wait"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "Number",
+              "Value": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Free",
+      "stmt": {
+        "stmt_type": "Expr",
+        "expr": {
+          "expr_type": "Call",
+          "call": {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "bark_speech"
+            }
+          },
+          "args": [
+            {
+              "expr_type": "Named",
+              "name": {
+                "token_type": "Identifier",
+                "value": "elsie"
+              }
+            },
+            {
+              "expr_type": "Named",
+              "name": {
+                "token_type": "Identifier",
+                "value": "heart"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "wait"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "Number",
+              "Value": 1.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Simultaneous",
+      "body": {
+        "stmt_type": "Block",
+        "stmts": [
+          {
+            "stmt_type": "Block",
+            "stmts": [
+              {
+                "stmt_type": "Expr",
+                "expr": {
+                  "expr_type": "Call",
+                  "call": {
+                    "expr_type": "Named",
+                    "name": {
+                      "token_type": "Identifier",
+                      "value": "walk"
+                    }
+                  },
+                  "args": [
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "ari"
+                      }
+                    },
+                    {
+                      "expr_type": "Literal",
+                      "value": {
+                        "token_type": "String",
+                        "value": "south table bottom 1"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "stmt_type": "Expr",
+                "expr": {
+                  "expr_type": "Call",
+                  "call": {
+                    "expr_type": "Named",
+                    "name": {
+                      "token_type": "Identifier",
+                      "value": "face"
+                    }
+                  },
+                  "args": [
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "ari"
+                      }
+                    },
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "north"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "stmt_type": "Expr",
+                "expr": {
+                  "expr_type": "Call",
+                  "call": {
+                    "expr_type": "Named",
+                    "name": {
+                      "token_type": "Identifier",
+                      "value": "animate"
+                    }
+                  },
+                  "args": [
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "ari"
+                      }
+                    },
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "sit"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "stmt_type": "Block",
+            "stmts": [
+              {
+                "stmt_type": "Expr",
+                "expr": {
+                  "expr_type": "Call",
+                  "call": {
+                    "expr_type": "Named",
+                    "name": {
+                      "token_type": "Identifier",
+                      "value": "walk"
+                    }
+                  },
+                  "args": [
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "elsie"
+                      }
+                    },
+                    {
+                      "expr_type": "Call",
+                      "call": {
+                        "expr_type": "Named",
+                        "name": {
+                          "token_type": "Identifier",
+                          "value": "get_element_x"
+                        }
+                      },
+                      "args": [
+                        {
+                          "expr_type": "Named",
+                          "name": {
+                            "token_type": "Identifier",
+                            "value": "elsie"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "expr_type": "Binary",
+                      "left": {
+                        "expr_type": "Call",
+                        "call": {
+                          "expr_type": "Named",
+                          "name": {
+                            "token_type": "Identifier",
+                            "value": "get_element_y"
+                          }
+                        },
+                        "args": [
+                          {
+                            "expr_type": "Named",
+                            "name": {
+                              "token_type": "Identifier",
+                              "value": "elsie"
+                            }
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "token_type": "Minus"
+                      },
+                      "right": {
+                        "expr_type": "Literal",
+                        "value": {
+                          "token_type": "Number",
+                          "Value": 60
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "stmt_type": "Expr",
+                "expr": {
+                  "expr_type": "Call",
+                  "call": {
+                    "expr_type": "Named",
+                    "name": {
+                      "token_type": "Identifier",
+                      "value": "face"
+                    }
+                  },
+                  "args": [
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "elsie"
+                      }
+                    },
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "east"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Simultaneous",
+      "body": {
+        "stmt_type": "Block",
+        "stmts": [
+          {
+            "stmt_type": "Block",
+            "stmts": [
+              {
+                "stmt_type": "Expr",
+                "expr": {
+                  "expr_type": "Call",
+                  "call": {
+                    "expr_type": "Named",
+                    "name": {
+                      "token_type": "Identifier",
+                      "value": "walk"
+                    }
+                  },
+                  "args": [
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "adeline"
+                      }
+                    },
+                    {
+                      "expr_type": "Call",
+                      "call": {
+                        "expr_type": "Named",
+                        "name": {
+                          "token_type": "Identifier",
+                          "value": "get_element_x"
+                        }
+                      },
+                      "args": [
+                        {
+                          "expr_type": "Literal",
+                          "value": {
+                            "token_type": "String",
+                            "value": "soup pot"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "expr_type": "Binary",
+                      "left": {
+                        "expr_type": "Call",
+                        "call": {
+                          "expr_type": "Named",
+                          "name": {
+                            "token_type": "Identifier",
+                            "value": "get_element_y"
+                          }
+                        },
+                        "args": [
+                          {
+                            "expr_type": "Literal",
+                            "value": {
+                              "token_type": "String",
+                              "value": "soup pot"
+                            }
+                          }
+                        ]
+                      },
+                      "operator": {
+                        "token_type": "Plus"
+                      },
+                      "right": {
+                        "expr_type": "Literal",
+                        "value": {
+                          "token_type": "Number",
+                          "Value": 30
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "stmt_type": "Expr",
+                "expr": {
+                  "expr_type": "Call",
+                  "call": {
+                    "expr_type": "Named",
+                    "name": {
+                      "token_type": "Identifier",
+                      "value": "face"
+                    }
+                  },
+                  "args": [
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "adeline"
+                      }
+                    },
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "south"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "stmt_type": "Block",
+            "stmts": [
+              {
+                "stmt_type": "Expr",
+                "expr": {
+                  "expr_type": "Call",
+                  "call": {
+                    "expr_type": "Named",
+                    "name": {
+                      "token_type": "Identifier",
+                      "value": "wait"
+                    }
+                  },
+                  "args": [
+                    {
+                      "expr_type": "Literal",
+                      "value": {
+                        "token_type": "Number",
+                        "Value": 0.5
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "stmt_type": "Expr",
+                "expr": {
+                  "expr_type": "Call",
+                  "call": {
+                    "expr_type": "Named",
+                    "name": {
+                      "token_type": "Identifier",
+                      "value": "walk"
+                    }
+                  },
+                  "args": [
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "elsie"
+                      }
+                    },
+                    {
+                      "expr_type": "Literal",
+                      "value": {
+                        "token_type": "String",
+                        "value": "south table left end"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "stmt_type": "Expr",
+                "expr": {
+                  "expr_type": "Call",
+                  "call": {
+                    "expr_type": "Named",
+                    "name": {
+                      "token_type": "Identifier",
+                      "value": "animate"
+                    }
+                  },
+                  "args": [
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "elsie"
+                      }
+                    },
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "sit"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "stmt_type": "Expr",
+                "expr": {
+                  "expr_type": "Call",
+                  "call": {
+                    "expr_type": "Named",
+                    "name": {
+                      "token_type": "Identifier",
+                      "value": "face"
+                    }
+                  },
+                  "args": [
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "elsie"
+                      }
+                    },
+                    {
+                      "expr_type": "Named",
+                      "name": {
+                        "token_type": "Identifier",
+                        "value": "east"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "fade_out"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "Number",
+              "Value": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "remove_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "ryis"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "place_actor"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "ryis"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "east"
+            }
+          },
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "String",
+              "value": "north table service"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "animate"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "ryis"
+            }
+          },
+          {
+            "expr_type": "Named",
+            "name": {
+              "token_type": "Identifier",
+              "value": "idle"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "fade_in"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "Number",
+              "Value": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "next_line"
+          }
+        },
+        "args": []
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "wait"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "Number",
+              "Value": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "stmt_type": "Expr",
+      "expr": {
+        "expr_type": "Call",
+        "call": {
+          "expr_type": "Named",
+          "name": {
+            "token_type": "Identifier",
+            "value": "fade_out"
+          }
+        },
+        "args": [
+          {
+            "expr_type": "Literal",
+            "value": {
+              "token_type": "Number",
+              "Value": 2
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

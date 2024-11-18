@@ -1,0 +1,7 @@
+﻿{
+  "letters/pumpkin_carving_1/subject_line": "Please delivery some pumpkins!",
+  "letters/pumpkin_carving_1/local":  "Hey [Ari], we need some pumpkins desperately! Please come deliver some",
+  "quests/story_quests/pumpkin_carving_1/name": "Deliver 8 Pumpkins",
+  "quests/story_quests/pumpkin_carving_1/description": "Deliver 8 pumpkins to the inn after 6pm",
+  "quests/story_quests/pumpkin_carving_1/stages/0/objective_description": "Go to the Inn"
+}

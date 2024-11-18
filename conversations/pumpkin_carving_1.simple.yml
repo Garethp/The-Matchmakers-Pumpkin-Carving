@@ -1,0 +1,105 @@
+﻿{
+  "name": "Cutscenes/Story Events/pumpkin_carving_1/pumpkin_carving_1",
+  "lines": [
+    {
+      "speaker": "elsie",
+      "text": "Welcome, dear! Oh, this is your first Halloween with us, isn't it? Well, you're in for a treat!"
+    },
+    {
+      "speaker": "elsie",
+      "text": "First place in our annual Pumpkin Carving contest wins this darling bespoke pumpkin beret, made by our very own Louis! Tres chic!"
+    },
+    {
+      "speaker": "celine",
+      "text": "Oooh, that's so cute! I wonder if my plants would grow better if they thought I was one of them?"
+    },
+    {
+      "speaker": "holt",
+      "text": "Ha! Bespook fashion!"
+    },
+    {
+      "speaker": "elsie",
+      "text": "..."
+    },
+    {
+      "speaker": "elsie",
+      "text": "Second place wins this batch of artisanal pumpkin spice wine!"
+    },
+    {
+      "speaker": "holt",
+      "text": "Hemlock's special recipe? Hoo boy I drank so much of that good stuff last year, I felt gourd-awful the next morning!"
+    },
+    {
+      "speaker": "juniper",
+      "text": "Oh? How sneaky of you Hemlock, you told me you were all out."
+    },
+    {
+      "speaker": "hemlock",
+      "text": "That's the last batch, I swear! I'd already set it aside when you asked."
+    },
+    {
+      "speaker": "juniper",
+      "text": "Is that so? It looks like now I'll need to compete."
+    },
+    {
+      "speaker": "holt",
+      "text": "Gourd-awful, get it? Anyone?"
+    },
+    {
+      "speaker": "elsie",
+      "text": "...Moving on, third and last place wins one of Reina's delicious pumpkin pies!"
+    },
+    {
+      "speaker": "march",
+      "text": "These prizes are the same every year."
+    },
+    {
+      "speaker": "olric",
+      "text": "Yeah! Can't have too much of a good thing!"
+    },
+    {
+      "speaker": "valen",
+      "text": "Holt's cautionary tale seems to suggest otherwise. All things in moderation."
+    },
+    {
+      "speaker": "adeline",
+      "text": "Thanks for introducing the prizes, Elsie. Now that you know what you're competing for, let's start carving!"
+    },
+    {
+      "speaker": "dell",
+      "text": "I'm gonna win that 2nd place prize, then give it to Juniper! She said she'll trade me for a potion to turn into a frog!"
+    },
+    {
+      "speaker": "elsie",
+      "text": "All right everyone! Let's get the judging underway!"
+    },
+    {
+      "speaker": "hemlock",
+      "text": "Ryis? You're the judge?"
+    },
+    {
+      "speaker": "ryis",
+      "text": "Yeah, well it wouldn't really be fair if I competed, and this way I can still join in."
+    },
+    {
+      "speaker": "ryis",
+      "text": "Next up we have Henrietta's entry..."
+    },
+    {
+      "speaker": "ryis",
+      "text": "Is that... an egg?"
+    },
+    {
+      "speaker": "hayden",
+      "text": "Of course it is! My girl is an artist!"
+    },
+    {
+      "speaker": "ryis",
+      "text": "Well it's certainly very... avant garde."
+    },
+    {
+      "speaker": "march",
+      "text": "I think she was just eating the pumpkin."
+    }
+  ]
+}
