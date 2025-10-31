@@ -1,5 +1,5 @@
 ﻿{
-  "name": "Cutscenes/Story Events/pumpkin_carving_2/pumpkin_carving_2",
+  "name": "Cutscenes/Story Events/pumpkin_carving/pumpkin_carving",
   "lines": [
     {
       "speaker": "adeline",
@@ -363,21 +363,7 @@
     },
     {
       "speaker": "adeline",
-      "text": "You've breathed new life into this village, and we couldn't have done all this without you. I know we said there was only one, but... Louis made an extra beret just for you",
-      "choices": [
-        {
-          "text": "Thank you Adeline",
-          "nextLine": 85
-        },
-        {
-          "text": "I had a lot of fun, looking forward to next year!",
-          "nextLine": 85
-        },
-        {
-          "text": "Perfect, now I can finally match Henrietta.",
-          "nextLine": 85
-        }
-      ]
+      "text": "You've breathed new life into this village, and we couldn't have done all this without you. I made you a little treat as a thank you, I hope you like it"
     },
     {
       "speaker": "adeline",

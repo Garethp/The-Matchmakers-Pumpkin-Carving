@@ -1,4 +1,4 @@
-﻿function pumpkin_carving_2() {
+﻿function pumpkin_carving() {
     function on_scene_end() {
         request_music_stop(2);
     }
@@ -25,7 +25,7 @@
         animate(reina, chop);
     }
     
-    function shake_camera() {
+    function shake_camera_local() {
         camera_position(camera_x - 1, camera_y);
         wait(0.05);
         camera_position(camera_x, camera_y);
@@ -387,10 +387,10 @@
                     play_sound('SoundEffects/Enemies/DieFlesh/DieFlesh');
                 },
                 () => {
-                    shake_camera();
-                    shake_camera();
-                    shake_camera();
-                    shake_camera();
+                    shake_camera_local();
+                    shake_camera_local();
+                    shake_camera_local();
+                    shake_camera_local();
                 }
             )
 
@@ -623,7 +623,7 @@
     next_line();
     
     close_textbox();
-    ari_hold_item(pumpkin);
+    ari_hold_item(pumpkin_pie);
     wait(1);
     
     next_line();

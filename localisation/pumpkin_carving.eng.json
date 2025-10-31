@@ -1,0 +1,7 @@
+﻿{
+  "letters/pumpkin_carving/subject_line": "Join us for some Pumpkin Carving",
+  "letters/pumpkin_carving/local":  "[Ari],\nCan you feel that bite in the air? The crunch of leaves underfoot?\n\nThat’s right, Fall is finally here! With the days getting colder and shorter, soon it will be time to shore up Mistria’s supplies for winter... But before that, we have a little annual tradition here that I hope you’ll take part in! And not just because I need your help again.\n\n...But I do need your help.!\n\nCould you come find me at the Inn after 6pm?\n\n- Adeline\n\nP.S. Please bring 6 pumpkins with you",
+  "quests/story_quests/pumpkin_carving/name": "Pumpkin Carving Night!",
+  "quests/story_quests/pumpkin_carving/description": "Pumpkin! Pumpkin! Pumpkin!",
+  "quests/story_quests/pumpkin_carving/stages/0/objective_description": "Go to the Inn for Pumpkin Carving"
+}

@@ -1,0 +1,130 @@
+﻿{
+  "letters": {
+    "pumpkin_carving": {
+      "npc": "adeline",
+      "subject_line": "letters/pumpkin_carving/subject_line",
+      "local": "letters/pumpkin_carving/local",
+      "quest_to_start": "pumpkin_carving",
+      "requirements": {
+        "is_season": "fall"
+      },
+      "items": [
+        {
+          "item_name": "seed_pumpkin",
+          "count": 6
+        }
+      ]
+    }
+  },
+  "letters/pumpkin_carving": {
+    "npc": "adeline",
+    "subject_line": "letters/pumpkin_carving/subject_line",
+    "local": "letters/pumpkin_carving/local",
+    "default": true,
+    "quest_to_start": "pumpkin_carving",
+    "requirements": {
+      "is_season": "fall"
+    },
+    "items": [
+      {
+        "item_name": "seed_pumpkin",
+        "count": 6
+      }
+    ]
+  },
+  "letters/pumpkin_carving/quest_to_start": "pumpkin_carving",
+  "quests": {
+    "story_quests": {
+      "pumpkin_carving": {
+        "name": "quests/story_quests/pumpkin_carving/name",
+        "npc_for_icon": "adeline",
+        "description": "quests/story_quests/pumpkin_carving/description",
+        "rewards": [],
+        "stages": [
+          {
+            "objective_description": "quests/story_quests/pumpkin_carving/stages/0/objective_description",
+            "queries": [
+              {
+                "cutscene": "pumpkin_carving",
+                "location": "inn"
+              }
+            ],
+            "requirements": {
+              "has_item": {
+                "pumpkin": 6
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "quests/story_quests": {
+    "pumpkin_carving": {
+      "name": "quests/story_quests/pumpkin_carving/name",
+      "npc_for_icon": "adeline",
+      "description": "quests/story_quests/pumpkin_carving/description",
+      "rewards": [],
+      "stages": [
+        {
+          "objective_description": "quests/story_quests/pumpkin_carving/stages/0/objective_description",
+          "queries": [
+            {
+              "cutscene": "pumpkin_carving",
+              "location": "inn"
+            }
+          ],
+          "requirements": {
+            "has_item": {
+              "pumpkin": 6
+            }
+          }
+        }
+      ]
+    }
+  },
+  "quests/story_quests/pumpkin_carving": {
+    "name": "quests/story_quests/pumpkin_carving/name",
+    "npc_for_icon": "adeline",
+    "description": "quests/story_quests/pumpkin_carving/description",
+    "rewards": [],
+    "stages": [
+      {
+        "objective_description": "quests/story_quests/pumpkin_carving/stages/0/objective_description",
+        "queries": [
+          {
+            "cutscene": "pumpkin_carving",
+            "location": "inn"
+          }
+        ],
+        "requirements": {
+          "has_item": {
+            "pumpkin": 6
+          }
+        }
+      }
+    ]
+  },
+  "cutscenes": {
+    "pumpkin_carving": {
+      "has_conversation": true,
+      "run_tests": false,
+      "end_position": "previous",
+      "given_items": [
+        {
+          "item_id": "pumpkin_pie"
+        }
+      ]
+    }
+  },
+  "props": {
+    "pumpkin": {
+      "sprite": "spr_ui_item_pumpkin",
+      "z": 2
+    }
+  },
+  "props/pumpkin": {
+    "sprite": "spr_ui_item_pumpkin",
+    "z": 2
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "pumpkin_carving_2.mist": [
+  "pumpkin_carving.mist": [
     {
       "stmt_type": "Function",
       "name": {
@@ -420,7 +420,7 @@
       "stmt_type": "Function",
       "name": {
         "token_type": "Identifier",
-        "value": "shake_camera"
+        "value": "shake_camera_local"
       },
       "params": [],
       "body": {
@@ -6271,7 +6271,7 @@
                               "expr_type": "Named",
                               "name": {
                                 "token_type": "Identifier",
-                                "value": "shake_camera"
+                                "value": "shake_camera_local"
                               }
                             },
                             "args": []
@@ -6285,7 +6285,7 @@
                               "expr_type": "Named",
                               "name": {
                                 "token_type": "Identifier",
-                                "value": "shake_camera"
+                                "value": "shake_camera_local"
                               }
                             },
                             "args": []
@@ -6299,7 +6299,7 @@
                               "expr_type": "Named",
                               "name": {
                                 "token_type": "Identifier",
-                                "value": "shake_camera"
+                                "value": "shake_camera_local"
                               }
                             },
                             "args": []
@@ -6313,7 +6313,7 @@
                               "expr_type": "Named",
                               "name": {
                                 "token_type": "Identifier",
-                                "value": "shake_camera"
+                                "value": "shake_camera_local"
                               }
                             },
                             "args": []
@@ -10103,7 +10103,7 @@
             "expr_type": "Named",
             "name": {
               "token_type": "Identifier",
-              "value": "pumpkin"
+              "value": "pumpkin_pie"
             }
           }
         ]
